@@ -1,0 +1,33 @@
+
+# Виртуальное окружение
+venv/
+env/
+ENV/
+Lib/
+Scripts/
+pyvenv.cfg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Данные и кэш
+*.csv
+*.xlsx
+*.json
+*.pickle
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+.thumbs.db
+
+# Конфиденциальные данные
+.env
+config.py
+secrets.py
+
+# Jupyter
+*.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
